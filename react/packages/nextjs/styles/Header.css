@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 400px;
+    height: 136px;
+    left: 64px;
+    top: 17px;
+}
+
+.link {
+    margin: 0rem 1rem;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: left;
+}
