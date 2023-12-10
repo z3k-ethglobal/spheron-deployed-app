@@ -2,8 +2,8 @@ FROM node:alpine
  
 WORKDIR /usr/src/app
 
-COPY . .
+COPY ./packages/nextjs .
 
 RUN npm install
  
-EXPOSE 5173
+EXPOSE 3000
